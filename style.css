@@ -159,3 +159,54 @@ main {
     text-align: center;
     font-weight: normal;
 }
+
+.users-sec { 
+
+}
+
+.users-heading {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 14px;
+    border: 1px solid silver;
+    padding: 24px 40px;
+}
+
+.card-heading { 
+    margin-top: 24px;
+}
+
+.card-paragraph {
+    margin-top: 8px;
+
+}
+
+.inner-card { 
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.inner-heading { 
+    
+    color: #757575;
+}
+
+.inner-title { 
+    margin-top: 5px;
+    color: lightgrey;
+}
