@@ -161,7 +161,7 @@ main {
 }
 
 .users-sec { 
-
+    margin-bottom: 137px;
 }
 
 .users-heading {
@@ -209,4 +209,41 @@ main {
 .inner-title { 
     margin-top: 5px;
     color: lightgrey;
+}
+
+.better-focus-sec { 
+    background-color: #fff;
+    max-width: 1250px;
+    margin: 0px auto;
+    border-radius: 14px;
+    margin-bottom: 92px;
+}
+
+.better-container {
+    padding: 71px 150px;
+}
+
+.better-focus-heading { 
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.better-focus-paragraph {
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.better-focus-btn { 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.better-focus-img {
+    text-align: center;
+}
+
+.better-img { 
+    border-radius: 48px;
 }
