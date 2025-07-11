@@ -54,7 +54,7 @@ header {
 nav { 
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px;;
+    padding: 50px 200px;;
     align-items: center;
 }
 
@@ -98,6 +98,7 @@ main {
 
 .action-sec { 
     margin-bottom: 116px;
+    
 }
 
 .action { 
@@ -246,4 +247,79 @@ main {
 
 .better-img { 
     border-radius: 48px;
+}
+
+.form-sec { 
+    margin-bottom: 100px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    gap:0px;
+    align-items: center;
+}
+
+.form-sub-container { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-heading { 
+    font-size: 97px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+.form-title { 
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+
+textarea { 
+    height: 135px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+
+::placeholder { 
+    color: silver;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.touch-btn { 
+    width: 430px;
+    color: #fff;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.touch-btn:hover { 
+    color: #fff;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border:none;
 }
