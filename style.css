@@ -54,7 +54,7 @@ header {
 nav { 
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;;
+    padding: 50px 350px;;
     align-items: center;
 }
 
@@ -70,6 +70,7 @@ nav ul li a {
     font-size: 34px;
     font-weight: bolder;
     cursor: pointer;
+    font-weight:900
 }
 
 .header-description { 
@@ -333,6 +334,7 @@ footer {
     color: #4E47FF;
     text-align: center;
     font-size: 50px;
+    font-weight: 900;
     cursor: pointer;
 }
 
