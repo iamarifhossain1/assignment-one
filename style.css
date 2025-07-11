@@ -285,6 +285,7 @@ input {
     width: 400px;
     border-radius: 10px;
     border: 1px solid silver;
+    font-size: 20px;
 }
 
 textarea { 
@@ -293,12 +294,12 @@ textarea {
     width: 400px;
     border-radius: 10px;
     border: 1px solid silver;
+    font-size: 20px;
 }
 
 ::placeholder { 
     color: silver;
     font-size: 18px;
-    padding: 10px;
 }
 
 .touch-btn { 
